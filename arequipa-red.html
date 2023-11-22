@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIOT PERÚ - Arequipa</title>
+    <style>
+        /* Centrar el cuadro en la pantalla */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Establecer el tamaño fijo del cuadro */
+        #cuadro {
+            width: 600px;
+            height: 400px;
+            border: 1px solid #ccc; /* Añadir un borde opcional para mayor claridad */
+        }
+        body {
+            background-image: url('logo8.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen */
+            background-size: auto; /* Mantener el tamaño original */
+            background-repeat: repeat; /* Repetir en ambas direcciones */
+        }
+        
+        /* Establecer el tamaño fijo del cuadro */
+        #cuadro {
+            width: 600px;
+            height: 400px;
+            border: 2px solid red; /* Grosor de 2px y color rojo */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="cuadro">
+            <!-- Utilizar la etiqueta iframe para incrustar otro HTML -->
+            <iframe src="arequipa.html" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+          
+    </div>  
+    
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        });
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
